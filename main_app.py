@@ -22,8 +22,9 @@ from screens.usb_drive_screen import USBDriveScreen
 from config.firebase_config import db
 
 # SocketIO Configuration
-SOCKETIO_SERVER = "https://printqueuesk.azurewebsites.net"  # Remote server
+#SOCKETIO_SERVER = "https://printqueuesk.azurewebsites.net"  # Remote server
 #SOCKETIO_SERVER = "http://localhost:5000"  # Local server
+
 
 # Set to True to keep the app always-on-top and intercept Alt-Tab.
 # When False, the app behaves like a normal window.
