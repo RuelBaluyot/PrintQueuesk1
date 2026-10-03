@@ -48,6 +48,7 @@ jobs:
       
 
   deploy:
+    if: false # Temporarily disabled until Azure credentials are configured.
     runs-on: ubuntu-latest
     needs: build
     permissions:
